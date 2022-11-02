@@ -18,9 +18,9 @@ const CustomDropdownButton = ({onPress,text}) => {
 const styles = StyleSheet.create({
   container: {
       alignItems: 'center',
-      width: '95%',
+      width: '100%',
       padding: 15,
-      marginVertical: 10,
+      marginVertical: 5,
       borderRadius: 10,
       backgroundColor: '#3b71f3'
     },
