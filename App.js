@@ -269,7 +269,7 @@ function amountValue(value) {
       <View style={{flex:1,backgroundColor:'white',  justifyContent:'center',
           alignItems:'center',}}>
       <Text style={{fontSize:25,textAlign:'center',marginVertical:3}}> Mobile Network </Text>
-      <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={true}>
+      <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
       <CustomDropdownButton onPress={()=>mobileNetworkSelected("1")} text="MTN" />
       <CustomDropdownButton onPress={()=>mobileNetworkSelected("2")} text="Vodafone" />
       <CustomDropdownButton onPress={()=>mobileNetworkSelected("3")} text="Airtel/Tigo" />
@@ -288,7 +288,7 @@ function amountValue(value) {
       <View style={{flex:1,backgroundColor:'white',  justifyContent:'center',
           alignItems:'center',}}>
       <Text style={{fontSize:25,textAlign:'center',marginVertical:3}}> Transaction Point </Text>
-      <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={true}>
+      <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
       <CustomDropdownButton onPress={()=>transactionPointSelected("1")} text="At Merchant / Agent" />
       <CustomDropdownButton onPress={()=>transactionPointSelected("2")} text="Mobile" />
       </ScrollView>
@@ -307,7 +307,7 @@ function amountValue(value) {
       <View style={{flex:1,backgroundColor:'white',  justifyContent:'center',
           alignItems:'center',}}>
       <Text style={{fontSize:25,textAlign:'center',marginVertical:3}}> Transaction Type </Text>
-      <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={true}>
+      <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
       <CustomDropdownButton onPress={()=>transactionTypeSelected("1")} text="Money Transfer" />
       <CustomDropdownButton onPress={()=>transactionTypeSelected("2")} text="Cash-out" />
       <CustomDropdownButton onPress={()=>transactionTypeSelected("3")} text="Money Transfer(P2P)" />
